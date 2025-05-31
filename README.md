@@ -75,7 +75,7 @@ organize_media("/path/to/source", "/path/to/destination")
 # organize_v1.2.py 
 该版本文件已废弃，运行不稳定  
 
-# organize_v1.3.py  
+# organize_v1.3.1.py  
 深度安全增强：  
   
 文件路径安全处理  
@@ -154,3 +154,7 @@ CPU：多核充分利用
 内存：<100MB（对于10K文件）  
 磁盘IO：顺序读写优化  
 这个版本完全解决了线程池关闭问题，同时显著增强了系统的健壮性、安全性和性能。无论是对小型文件夹还是大型媒体库，都能高效可靠地完成整理任务。  
+
+# organize_v1.3.2.py/organize_v1.3.3.py   
+  
+优化代码，优化运行速度。
